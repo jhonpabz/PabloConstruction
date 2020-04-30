@@ -19,23 +19,26 @@
   .masthead-text {
     color: $base-color;
   }
+  a.pc-btn.size-btn.border-btn {
+    margin-bottom: 106px;
+  }
 }
 .carousel-caption.d-md-block.left {
   text-align: left !important;
 }
 // ------button----
 
-.wprt-button.big {
+.pc-btn.size-btn {
   padding: 0.8em 2.6em;
   font-size: 1.142em;
 }
-.wprt-button.rounded-3px {
+.pc-btn.border-btn {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-.wprt-button {
+.pc-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   display: inline-block;
@@ -50,11 +53,9 @@
     background-color: #222;
     border: 2px solid #222;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
   }
-}
-
-a.wprt-button.big.rounded-3px {
-  margin-bottom: 106px;
 }
 
 /* -- Media Queries -- */
@@ -74,11 +75,11 @@ a.wprt-button.big.rounded-3px {
     .masthead-text {
       color: $base-color;
     }
-    .wprt-button.big {
+    .pc-btn.size-btn {
       padding: 0.5em 1em;
       font-size: 0.9em;
     }
-    a.wprt-button.big.rounded-3px {
+    a.pc-btn.size-btn.border-btn {
       margin-bottom: 176px;
     }
   }
@@ -100,11 +101,11 @@ a.wprt-button.big.rounded-3px {
     .masthead-text {
       color: $base-color;
     }
-    .wprt-button.big {
+    .pc-btn.size-btn {
       padding: 0.5em 1em;
       font-size: 0.9em;
     }
-    a.wprt-button.big.rounded-3px {
+    a.pc-btn.size-btn.border-btn {
       margin-bottom: 166px;
     }
     .carousel-caption.d-md-block.left {

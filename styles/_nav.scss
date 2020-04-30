@@ -9,6 +9,11 @@
   position: absolute;
 }
 
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $base-color !important;
+}
+
 .top-nav {
   width: 100%;
   color: #fff;

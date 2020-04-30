@@ -1,0 +1,68 @@
+.quote {
+  background-color: $base-color;
+  padding-top: 2.1%;
+  padding-bottom: 2.1%;
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 16px;
+  }
+  .pc-btn {
+    margin-top: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.95em 2.4em;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #222;
+    float: right;
+    -webkit-transition: all ease 0.238s;
+    -moz-transition: all ease 0.238s;
+    transition: all ease 0.238s;
+    &:hover {
+      background-color: #222;
+      border: 2px solid #222;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  .pc-btn.size-btn {
+    padding: 0.8em 2.6em;
+    font-size: 0.85em;
+  }
+}
+
+/* -- Media Queries -- */
+@media (max-width: 767px) {
+  .quote {
+    text-align: center;
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    .pc-btn {
+      float: none;
+      margin-bottom: 20px;
+    }
+    .pc-btn.size-btn {
+      padding: 0.6em 1.6em;
+      font-size: 0.75em;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .quote {
+    p {
+      font-size: 15px;
+    }
+    .pc-btn {
+      float: none;
+    }
+  }
+}
