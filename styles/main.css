@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg-dark {
+  background-color: #00000033 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  position: absolute;
+}
+
+.top-nav {
+  width: 100%;
+  color: #fff;
+}
+
+#top-bar.style-2 .upper-nav {
+  text-align: right;
+}
+
+#top-bar .upper-nav {
+  display: table-cell;
+  margin: 0;
+  text-align: left;
+  vertical-align: middle;
+  width: 75%;
+}
+
+span#top-bar-text {
+  color: #fff;
+}
+
+span.icons a {
+  color: #fff;
+  margin-right: 22px;
+}
+
+#top-bar-text span {
+  font-size: 2px;
+}
+
+#top-bar-text i.fa {
+  margin-left: 13px;
+  margin-right: 3px;
+}
+
+.inner,
+.upper-nav {
+  padding-bottom: 6px;
+}
+
+.upper-nav {
+  font-size: 12px;
+}
+
+div#navbarMenu {
+  height: 84px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 5px;
+  border-top: 1px solid #bfbdbd61;
+}
+
+.navbar a {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  color: #ffbc13 !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+a.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar.mobile {
+    display: none;
+  }
+  .navbar {
+    padding: 0.5rem 0rem;
+  }
+  .top-nav-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  a.navbar-brand {
+    padding-left: 7rem;
+  }
+  ul.nav.navbar-nav.ml-auto {
+    padding-right: 7rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .navbar.desktop {
+    display: none;
+  }
+  .navbar.mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+#home {
+  position: relative;
+}
+
+.carousel-item {
+  height: 100vh !important;
+}
+
+.carousel-item .sm-text,
+.carousel-item .sm-text span {
+  font-family: "Vollkorn", serif !important;
+  font-size: 29px;
+}
+
+.carousel-item .lg-text {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.carousel-item .masthead-text {
+  color: #ffbc13;
+}
+
+.carousel-caption.d-none.d-md-block.left {
+  text-align: left !important;
+}
+
+.wprt-button.big {
+  padding: 0.8em 2.6em;
+  font-size: 1.142em;
+}
+
+.wprt-button.rounded-3px {
+  border-radius: 3px;
+}
+
+.wprt-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0.65em 2.5em;
+  background-color: #ffbc13;
+  border: 2px solid #ffbc13;
+  color: #fff;
+  -webkit-transition: all ease 0.238s;
+  transition: all ease 0.238s;
+}
+
+.wprt-button:hover {
+  background-color: #222;
+  border: 2px solid #222;
+  cursor: pointer;
+}
+
+a.wprt-button.big.rounded-3px {
+  margin-bottom: 106px;
+}
+/*# sourceMappingURL=main.css.map */
