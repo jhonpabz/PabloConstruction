@@ -4,6 +4,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-dark {
   background-color: #00000033 !important;
   top: 0;
@@ -183,7 +187,7 @@ a.nav-link {
 }
 
 /* -- Media Queries -- */
-@media (max-width: 767px) {
+@media (max-width: 990px) {
   .carousel-item img {
     height: 100vh;
   }
@@ -490,7 +494,7 @@ a.nav-link {
 }
 
 /* -- Media Queries -- */
-@media (max-width: 767px) {
+@media (max-width: 990px) {
   .quote {
     text-align: center;
   }
@@ -516,5 +520,23 @@ a.nav-link {
   .quote .pc-btn {
     float: none;
   }
+}
+
+/* -- Parallax Window -- */
+.parallax-window {
+  padding: 50px 155px;
+  background: transparent;
+}
+
+.imgparallax {
+  z-index: 2;
+  position: relative;
+  height: 180px;
+  /*margin-top: 50px;*/
+}
+
+.our-work div {
+  color: #fff;
+  z-index: 2;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+/* -- Parallax Window -- */
+.parallax-window {
+  padding: 50px 155px;
+  background: transparent;
+}
+
+.imgparallax {
+  z-index: 2;
+  position: relative;
+  height: 180px;
+  /*margin-top: 50px;*/
+}
+
+.our-work {
+  div {
+    color: #fff;
+    z-index: 2;
+  }
+}
