@@ -1,6 +1,6 @@
 /* -- Parallax Window -- */
 .parallax-window {
-  padding: 50px 155px;
+  padding: 50px 0px;
   background: transparent;
 }
 
@@ -12,12 +12,26 @@
 }
 
 .our-work {
+  .wrap-text-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    .line-1 {
+      height: 3px;
+      width: 60px;
+      background-color: #ffbc13;
+      margin-top: -1.5px;
+    }
+    h1 {
+      color: #fff;
+    }
+  }
   div {
     color: rgb(43, 43, 43);
     z-index: 2;
   }
   .carousel-item img {
-    height: auto;
+    height: 304px;
   }
   i.fa.fa-chevron-right,
   i.fa.fa-chevron-left {
@@ -38,7 +52,7 @@
   }
   .controls-top {
     float: right;
-    margin-bottom: 30px;
+    margin-top: 15px;
   }
   .overlay {
     position: absolute;
@@ -54,16 +68,26 @@
   .card:hover .overlay {
     height: 100%;
   }
+  .overlay {
+    a {
+      font-size: 17px;
+      font-weight: 600;
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  .card {
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
 
   .text {
-    color: white;
-    font-size: 20px;
+    color: $base-color;
+    font-size: 14px;
     position: absolute;
     top: 80%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    left: 25%;
     text-align: center;
   }
 }
