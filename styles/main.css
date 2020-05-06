@@ -522,6 +522,11 @@ a.nav-link {
   }
 }
 
+.services .container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 /* -- Parallax Window -- */
 .parallax-window {
   padding: 50px 0px;
@@ -562,7 +567,7 @@ a.nav-link {
 }
 
 .our-work .carousel-item img {
-  height: 304px;
+  height: 337px;
 }
 
 .our-work i.fa.fa-chevron-right,
@@ -630,5 +635,82 @@ a.nav-link {
   top: 80%;
   left: 25%;
   text-align: center;
+}
+
+.about .container {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.about .box-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f2f2f2;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  vertical-align: baseline;
+}
+
+.about .box-wrap div:last-child {
+  margin-left: auto;
+}
+
+.about .box-wrap .fa {
+  padding: 18px;
+}
+
+.about .box-wrap span {
+  font-weight: 600;
+}
+
+.about .box-wrap .paragrapth-title,
+.about .box-wrap .fa {
+  font-size: 19px;
+}
+
+.about .box-wrap .right-icon .fa {
+  font-size: 12px;
+  font-weight: 100;
+  color: #c1c0c0;
+}
+
+.about .box-wrap .first-icon {
+  color: #585858;
+}
+
+.about .wrap-text-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.about .wrap-text-controls .line-1 {
+  height: 3px;
+  width: 60px;
+  background-color: #ffbc13;
+  margin-top: -1.5px;
+}
+
+.about .wrap-text-controls h1 {
+  color: #222;
 }
 /*# sourceMappingURL=main.css.map */
